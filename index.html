@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <meta name="viewport" content="width=device-width; initial-scale=1.0;">
+    <!-- linking css stylesheet -->
+    <link rel="stylesheet" href="main.css">
+    <!--  Linking p5js library  -->
+    <script src="p5.min.js"></script>
+    
+    <title>Portfolio Website</title>
+</head>
+<body>
+    <!-- Page container  -->
+     <div id="page-container">
+      <!--   Top Menu bar-->
+      <header>
+       <div id="menu">
+          <!--   Logo  -->
+          <div id="logo">
+            <a class="current-item" href="index.html">Hamayoon Khan</a>
+          </div>
+           
+          <!--  Hamburger Menu  -->
+        <!--    Code inspired from (codeSTACKr, 2019)      -->
+          <div class="hamburger-wrap flex-center">
+           <div id="top" class="ham-line ease-transition"></div>
+           <div id="middle" class="ham-line ease-transition"></div>
+           <div id="bottom" class="ham-line ease-transition"></div>
+           </div>
+           
+          <!--  Navigation Bar  -->
+          <nav class="navbar">
+            <a class="navlink1" href="services.html">Services</a>
+            <a class="navlink2" href="portfolio.html">Portfolio</a>
+            <a class="navlink3" href="contact.html">Contact</a>
+          </nav>
+        </div>
+       </header>
+    <!-- Background Banner Image  -->
+    <div id="banner"></div>
+        <!-- My Introduction and About me page button -->
+        <main>
+        <div class="my-intro"><h1>Software Engineer & Web Developer</h1>
+          <div class="aboutmebtn">
+             <p><a href="aboutme.html">About Me</a></p>
+          </div>
+        </div>
+        </main>
+    
+        <!-- Social Media Icons on the right side  -->
+        <div role="contentinfo" class="sociallinks">
+            <ul>
+            <li><a href="https://www.facebook.com/profile.php?id=100071468872956"><img src="images/facebook.png" alt="Facebook icon leading to my facebook profile" id="facebook">
+            </a></li>
+            <li><a href="https://twitter.com/hamayoonk38"><img src="images/twitter1.png" alt="Twitter icon leading to my twitter Profile" id="twitter">
+            </a></li>
+            <li><a href="https://www.linkedin.com/in/hamayoon-khan-17166a184/"><img src="images/linkedinn.png" alt="Linkedin icon leading to my lindedin account Profile" id="linkedin">
+            </a></li>
+            </ul>
+        </div>
+         
+        
+    </div>
+    <!--  Linking javascript file  -->
+    <script src="sketch.js"></script>
+    </body>
+</html>
